@@ -1,9 +1,5 @@
-name = "Prasanna"
-age = 21
-gpa = 3.5
-is_student = True
+def introduce(name, major):
+    print("Hello! I am learning Software Engineering.",name,major)
+    print("My goal is to become a great engineer.", name,major)
 
-print(type(name))
-print(type(age))
-print(type(gpa))
-print(type(is_student))
+introduce("prasanna","CS")
